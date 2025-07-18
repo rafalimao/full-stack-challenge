@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [TrackController::class, 'index']);
+Route::get('/tracks', [TrackController::class, 'index']);
